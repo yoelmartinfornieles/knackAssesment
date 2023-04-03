@@ -6,7 +6,9 @@
 ## Considerations
 
 I consider that, for the duplicate objects, the _id field is the only one negligible (as the id field is the only one that cannot be a duplicate, being unique in the db).
+
 I consider a duplicate object when it got the same keys and values. This could be further discussed and approve within the team.
+
 I consider the object in the mock_application.json file as the model for the knack object. This could be defined in a model within the team, but right now is the only info I got.
 
 ## Install
