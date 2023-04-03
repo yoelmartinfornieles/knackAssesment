@@ -39,7 +39,10 @@ const filename = 'resources/mock_application.json';
 
 const paramsToSanitize = [['objects', 'fields'], ['scenes', 'views']];
 
+const outputFilename = 'sanitized_application.json';
+
 This values can be modified from the index.js file.
+
 The sanitized version of the mock_application.json file will be saved inside the 'output' directory. However, a sample can be found in the root of the project.
 
 ## Run tests
@@ -48,7 +51,7 @@ The sanitized version of the mock_application.json file will be saved inside the
 npm test
 ```
 
-The test can be located in the './src/test' directory.
+The tests can be located in the './src/test' directory.
 Mocha have been used for the implementation of the tests.
 
 ## ToDos
