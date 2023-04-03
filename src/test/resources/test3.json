@@ -1,0 +1,38 @@
+[
+    {
+        "_id": "1",
+        "key1": {
+            "singular": "1"
+        },
+        "key2": "2",
+        "subobject1": [
+            {
+                "key1": "1"
+            }
+        ]
+    },
+    {
+        "_id": "2",
+        "key1": {
+            "singular": "2"
+        },
+        "key2": "4",
+        "subobject1": [
+            {
+                "key1": "77"
+            }
+        ]
+    },
+    {
+        "_id": "3",
+        "key1": {
+            "singular": "a"
+        },
+        "key2": "b",
+        "subobject1": [
+            {
+                "key1": "c"
+            }
+        ]
+    }
+]

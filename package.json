@@ -1,0 +1,22 @@
+{
+    "name": "app",
+    "version": "1.0.0",
+    "description": "This is the implementation of the answer to the knack coding exercise",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha ./src/test/app.test.js",
+        "start": "node index.js"
+    },
+    "author": "Yoel Martin Fornieles",
+    "license": "ISC",
+    "dependencies": {
+        "chai": "^4.3.7",
+        "mocha": "^10.2.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.37.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.27.5"
+    },
+    "prettier": "prettier-airbnb-config"
+}
